@@ -35,7 +35,6 @@
             getZombiesByOwner(userAccount).then(displayZombies);
           }).on("error", console.error);
         }
-      }
 
       function displayZombies(ids) {
         $("#zombies").empty();
